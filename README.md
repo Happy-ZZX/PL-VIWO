@@ -15,4 +15,4 @@ A Lightweight and Robust Point-Line Monocular Visual Inertial Wheel Odometry
 ## Acknowledgements
 This project was built on top of the following works.
 * [OpenVINS](https://github.com/rpng/open_vins): Open-source filter-based visual-inertial estimator.
-* [MINS]([https://github.com/hku-mars/ikd-Tree](https://github.com/rpng/MINS/tree/master)): An efficient, robust, and tightly-coupled Multisensor-aided Inertial Navigation System (MINS)
+* [MINS](https://github.com/rpng/MINS/tree/master): An efficient, robust, and tightly-coupled Multisensor-aided Inertial Navigation System (MINS)
