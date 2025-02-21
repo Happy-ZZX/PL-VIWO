@@ -3,7 +3,7 @@ A Lightweight and Robust Point-Line Monocular Visual Inertial Wheel Odometry
 
 **Authors:** [Zhixin Zhang](https://happy-zzx.github.io/ZhixinZhang.github.io/), [Wenzhi Bai](https://wenzhibai.github.io/), and [Pawel Ladosz]()
 
-Thanks for the wonderful work and open-source from [RGPN](https://github.com/rpng). 
+Thanks for the wonderful work and open-source from [Robot Perception & Navigation Group (RPNG)](https://github.com/rpng). 
 ## Related Papers
 The paper is under review.
 
