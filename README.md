@@ -17,7 +17,13 @@ We use the [KAIST Complex Urban Dataset](https://sites.google.com/view/complex-u
 
 
 ```bibtex
-
+@article{Lee2023arxiv,
+    title        = {MINS: Efficient and Robust Multisensor-aided Inertial Navigation System},
+    author       = {Woosik Lee and Patrick Geneva and Chuchu Chen and Guoquan Huang},
+    year         = 2023,
+    journal      = {arXiv preprint arXiv:2309.15390},
+    url          = {https://github.com/rpng/MINS},
+}
 
 ## Acknowledgements
 This project was built on top of the following works.
