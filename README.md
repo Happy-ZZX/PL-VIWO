@@ -1,7 +1,7 @@
 # PL-VIWO
 A Lightweight and Robust Point-Line Monocular Visual Inertial Wheel Odometry
 
-**Authors:** [Zhixin Zhang](https://happy-zzx.github.io/ZhixinZhang.github.io/), [Wenzhi Bai](), and [Pawel Ladosz]()
+**Authors:** [Zhixin Zhang](https://happy-zzx.github.io/ZhixinZhang.github.io/), [Wenzhi Bai](https://wenzhibai.github.io/), and [Pawel Ladosz]()
 
 ##Related Papers
 
