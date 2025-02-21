@@ -7,6 +7,7 @@ A Lightweight and Robust Point-Line Monocular Visual Inertial Wheel Odometry
 
 
 ## Test Environment
+![alt text](images/KAIST_data.jpg)
 ### Dependencies
 * OpenCV 4.2
 * Eigen 3
