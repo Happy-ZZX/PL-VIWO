@@ -5,7 +5,7 @@ A Lightweight and Robust Point-Line Monocular Visual Inertial Wheel Odometry
 
 Thanks for the wonderful work and open-source from [RGPN](https://github.com/rpng). 
 ## Related Papers
-The paper is under-review!
+The paper is under review.
 
 ## Test Environment
 We use the [KAIST Complex Urban Dataset](https://sites.google.com/view/complex-urban-dataset) to test our algorithm.
