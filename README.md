@@ -9,7 +9,7 @@ The paper is under review.
 
 ## Test Environment
 We use the [KAIST Complex Urban Dataset](https://sites.google.com/view/complex-urban-dataset) to test our algorithm.
-![alt text](images/KAIST_data.jpg)
+![alt text](images/KAIST-Urban.png)
 ### Dependencies
 * OpenCV 4.2
 * Eigen 3
