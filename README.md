@@ -15,6 +15,10 @@ We use the [KAIST Complex Urban Dataset](https://sites.google.com/view/complex-u
 * Eigen 3
 * ROS noetic
 
+
+```bibtex
+
+
 ## Acknowledgements
 This project was built on top of the following works.
 * [OpenVINS](https://github.com/rpng/open_vins): Open-source filter-based visual-inertial estimator.
