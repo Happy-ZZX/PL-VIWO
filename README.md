@@ -24,7 +24,7 @@ Examples on KAIST Urban27:
 * ROS noetic
 
 ## Run Examples
-**Note**: This system is based on a monocular setup, please set the camera number to 1 in the Config file.
+**Note❗**: This system is based on a monocular setup, please set the camera number to 1 in the Config file.
 
 ```roslaunch viwo rosbag.launch config:=kaist/kaist_LC path_gt:=urban26.txt path_bag:=urban26.bag```
 
