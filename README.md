@@ -25,6 +25,7 @@ Examples on KAIST Urban27:
 
 ## Run Examples
 ```roslaunch viwo rosbag.launch config:=kaist/kaist_LC path_gt:=urban26.txt path_bag:=urban26.bag```
+
 ```rviz -d mins/launch/display.rviz```
 
 ![alt text](images/urban26.gif)
