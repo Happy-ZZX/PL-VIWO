@@ -3,14 +3,14 @@ A Lightweight and Robust Point-Line Monocular Visual Inertial Wheel Odometry
 
 **Authors:** [Zhixin Zhang](https://happy-zzx.github.io/ZhixinZhang.github.io/), [Wenzhi Bai](https://wenzhibai.github.io/), [Liang Zhao](https://scholar.google.com.au/citations?user=1OagsSYAAAAJ&hl=en) and [Pawel Ladosz](https://scholar.google.com/citations?user=fSEWVN8AAAAJ&hl=en)
 
-The code is coming soon!!
+The code is coming soon!!!
 ## Related Papers
 The paper is under review.
 
 ## Test Environment
 We use the [KAIST Complex Urban Dataset](https://sites.google.com/view/complex-urban-dataset) to test our algorithm.
 ![alt text](images/KAIST-Urban.png)
-Examples on KAIST Urban27:
+Examples on KAIST Urban27://
 ![alt_text](images/urban27.gif)
 ### Dependencies
 * OpenCV 4.2
