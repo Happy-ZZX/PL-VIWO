@@ -34,6 +34,10 @@ Examples on KAIST Urban27:
 
 For the rosbag file and ground truths used for test, please refer to [MINS](https://github.com/rpng/MINS/tree/master).
 
+## Benchmark
+For the benchmark used in our paper, we also open-source the modified version for the convenience of the community. The difference is add KAIST datasets Config file and disabled some functions, like loop closure or re-localization.
+The code will coming soon.
+
 ## Acknowledgements
 This project was built on top of the following works.
 * [OpenVINS](https://github.com/rpng/open_vins): Open-source filter-based visual-inertial estimator.
