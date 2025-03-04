@@ -32,7 +32,7 @@ Examples on KAIST Urban27:
 
 ![alt text](images/urban26.gif)
 
-For the rosbag file and ground truths used for test, please refer to [MINS](https://github.com/rpng/MINS/tree/master).
+For the rosbag files and ground truths used for test, please refer to [MINS](https://github.com/rpng/MINS/tree/master).
 
 ## Benchmark
 For the benchmark used in our paper, we also open-source the modified version for the convenience of the community. The difference is add KAIST datasets Config file and disabled some functions, like loop closure or re-localization.
