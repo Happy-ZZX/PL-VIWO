@@ -3,9 +3,6 @@ A Lightweight and Robust Point-Line Monocular Visual Inertial Wheel Odometry
 
 **Authors:** [Zhixin Zhang](https://happy-zzx.github.io/ZhixinZhang.github.io/), [Wenzhi Bai](https://wenzhibai.github.io/), [Liang Zhao](https://scholar.google.com.au/citations?user=1OagsSYAAAAJ&hl=en) and [Pawel Ladosz](https://scholar.google.com/citations?user=fSEWVN8AAAAJ&hl=en)
 
-## Code Release Coming Soon!🚀
-The code is preparing and will be released soon. 👀
-
 ## Video
 
 
@@ -23,12 +20,27 @@ Examples on KAIST Urban27:
 * Eigen 3
 * ROS noetic
 
+## Build and Source
+First, clone the code of [MINS](https://github.com/rpng/MINS/tree/master).
+```
+mkdir -p $MINS_WORKSPACE/catkin_ws/src/ && cd $MINS_WORKSPACE/catkin_ws/src/
+git clone https://github.com/rpng/MINS
+cd .. && catkin build
+source devel/setup.bash
+```
+Then  copy the PL-VIW to the src folder and build again.
+```
+cd $MINS_WORKSPACE/catkin_ws/src/ && cd $MINS_WORKSPACE/catkin_ws/src/
+git clone https://github.com/rpng/MINS
+cd .. && catkin build
+source devel/setup.bash
+```
 ## Run Examples
 **Note❗**: This system is based on a monocular setup, please set the camera number to 1 in the Config file.
 
-```roslaunch viwo rosbag.launch config:=kaist/kaist_LC path_gt:=urban26.txt path_bag:=urban26.bag```
+```roslaunch viwo rosbag.launch config:=kaist/kaist_C path_gt:=urban26.txt path_bag:=urban26.bag```
 
-```rviz -d mins/launch/display.rviz```
+```rviz -d PL-VIWO/launch/display.rviz```
 
 ![alt text](images/urban26.gif)
 
