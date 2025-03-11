@@ -28,10 +28,10 @@ git clone https://github.com/rpng/MINS
 cd .. && catkin build
 source devel/setup.bash
 ```
-Then  copy the PL-VIW to the src folder and build again.
+Then  copy the PL-VIWO to the src folder and build again.
 ```
-cd $MINS_WORKSPACE/catkin_ws/src/ && cd $MINS_WORKSPACE/catkin_ws/src/
-git clone https://github.com/rpng/MINS](https://github.com/Happy-ZZX/PL-VIWO.git
+cd $MINS_WORKSPACE/catkin_ws/src/
+git clone https://github.com/Happy-ZZX/PL-VIWO.git
 cd .. && catkin build
 source devel/setup.bash
 ```
