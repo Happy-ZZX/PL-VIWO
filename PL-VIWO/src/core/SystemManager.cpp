@@ -4,7 +4,6 @@
 #include "options/OptionsEstimator.h"
 #include "options/OptionsGPS.h"
 #include "options/OptionsWheel.h"
-#include "options/OptionsZupt.h"
 #include "state/Propagator.h"
 #include "state/State.h"
 #include "state/StateHelper.h"
