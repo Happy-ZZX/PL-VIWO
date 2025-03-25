@@ -28,10 +28,16 @@ git clone https://github.com/rpng/MINS
 cd .. && catkin build
 source devel/setup.bash
 ```
-Then  copy the PL-VIWO to the src folder and build again.
+Then copy the PL-VIWO to the src folder and replace the open-vins folder of MINS with the one in PL-VIWO.
 ```
 cd $MINS_WORKSPACE/catkin_ws/src/
 git clone https://github.com/Happy-ZZX/PL-VIWO.git
+rm -rf /$MINS_WORKSPACE/catkin_ws/src//MINS/thirdparty/open-vins
+cp -r /$MINS_WORKSPACE/catkin_ws/src//MINS/open-vins /$MINS_WORKSPACE/catkin_ws/src//MINS/thirdparty/
+rm -rf /$MINS_WORKSPACE/catkin_ws/src//MINS/open-vins
+```
+Compile the project again
+```
 cd .. && catkin build
 source devel/setup.bash
 ```
