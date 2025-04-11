@@ -211,21 +211,13 @@ bool LineHelper::line_triangulation(std::shared_ptr<LineFeature> &line_feat, ID_
       line_feat->triangulated = true;
       return true;
     }
-  } 
-  
-  if (!line_single_triangulation(line_feat, cam_poses)) {
-    if (line_feat->triangulated == false && line_feat->points.size() >= 2) {
-      if (line_triangulation_from_points(line_feat, point_database)) {
-        line_feat->triangulated = true;
-      } {
-        return false;
-      }
-    } else {
-      return false;
-    }
-    return false;
   }
   
+  // Attempt single-view triangulation
+  if (!line_single_triangulation(line_feat, cam_poses)) {
+    return false;
+  }
+
   if (optimization_refine && !line_gaussnewton(line_feat, cam_poses)) {
     line_feat->triangulated = false;
   } else {
