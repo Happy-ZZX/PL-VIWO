@@ -85,7 +85,6 @@ list(APPEND LIBRARY_SOURCES
         src/options/OptionsSimulation.cpp
         src/options/OptionsSystem.cpp
         src/options/OptionsWheel.cpp
-        src/options/OptionsZupt.cpp
         src/core/ROSPublisher.cpp
         src/core/ROSSubscriber.cpp
         src/core/ROSHelper.cpp
